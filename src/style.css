@@ -1,7 +1,93 @@
-body {
-  background: magenta;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.hello {
-  color: white;
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.board {
+	width: 100%;
+	padding: 30px;
+}
+
+.header1 {
+	font-size: 40px;
+}
+
+.header2 {
+	font-size: 23px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.sub-cont1 {
+	display: flex;
+	align-items: center;
+	justify-self: flex-start;
+	gap: 29.3%;
+}
+
+.sub-cont2 {
+	margin-top: 10px;
+	display: flex;
+	gap: 50px;
+	width: 100%;
+}
+
+.sub-cont3 {
+	width: 50%;
+	border: 1px solid black;
+}
+
+.sub-cont3 p {
+	font-size: 20px;
+	padding: 10px;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 200%;
+	padding-top: 20px;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+}
+
+input::placeholder {
+	font-size: 18px;
+	color: #ccc;
+}
+
+.btn {
+	padding: 8px;
+	width: 8%;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	outline: none;
+	box-shadow: 3px 3px 5px;
+}
+
+.btn2 {
+	padding: 8px;
+	width: 30%;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	outline: none;
+	box-shadow: 3px 3px 5px;
+	align-self: flex-end;
 }
