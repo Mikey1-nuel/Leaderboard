@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>To-Do-List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -25,9 +25,9 @@
 - [📝 License](#license)
 
 
-# 📖 To-Do-List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-**To-Do-List** is a project that enables users to make a digital list of tasks to be carried out on a daily basis. The purpose of this project is to make daily life activities easier for the user saving them the stress of having to think of the task to be done at a point in time while focusing more on other important things.
+**The Leaderboard** website displays scores submitted by different players. It also allows you to submit your score. It also show the leaders rank and adds new participants accordingly.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,17 +38,16 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **A list of tasks added**
-- **Enter button feature**
-- **Delete button feature**
-- **Clear all button feature**
+- **A list of leaders and their scores**
+- **Refresh button feature**
+- **Submit button feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://mikey1-nuel.github.io/To-Do-List-Project/)
+- [Live Demo Link](https://github.com/Mikey1-nuel/Leaderboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,8 +67,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- With a git cmd, git bash or visual studio terminal, clone repo with **``git clone https://github.com/Mikey1-nuel/To-do-list.git``** to download the repository locally on your machine.
-- Then you navigate to the folder in your code editor with the command **``cd To-do-list``**.
+- With a git cmd, git bash or visual studio terminal, clone repo with **``git clone https://github.com/Mikey1-nuel/Leaderboard.git``** to download the repository locally on your machine.
+- Then you navigate to the folder in your code editor with the command **``cd Leaderboard``**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
