@@ -47,7 +47,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://github.com/Mikey1-nuel/Leaderboard)
+- [Live Demo Link](https://mikey1-nuel.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
