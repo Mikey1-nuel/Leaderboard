@@ -18,9 +18,11 @@ const DisplayScores = {
     ApiResponse().then((data) => {
       const newData = data.result;
       newData.sort((prev, curr) => prev.score - curr.score);
-      scores.innerHTML = newData.map((num) => `
+      scores.innerHTML = newData.map((num, bookIndex) => (bookIndex % 2 === 0 ? `
+        <p class="paragraph show">${num.user}: ${num.score}</p>
+                  ` : `
         <p class="paragraph">${num.user}: ${num.score}</p>
-        `).join('');
+        `)).join('');
     });
   },
 };
