@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #e7fdf4;
   width: 100%;
   font-family: 'Poppins', sans-serif;
 }
@@ -20,6 +21,7 @@ body {
 
 .header2 {
   font-size: 23px;
+  color: #038178;
 }
 
 .container {
@@ -45,7 +47,12 @@ body {
 
 .sub-cont3 {
   width: 50%;
-  border: 1px solid black;
+  background: #e7fdf4;
+  border: 1px solid #038178;
+}
+
+.show {
+  background-color: #038178;
 }
 
 .sub-cont3 p {
@@ -64,6 +71,9 @@ body {
 input {
   width: 100%;
   padding: 10px;
+  background: #e7fdf4;
+  background-color: #e7fdf4;
+  border: 1px solid #038178;
 }
 
 input::placeholder {
@@ -72,22 +82,32 @@ input::placeholder {
 }
 
 .btn {
+  background-color: #038178;
   padding: 8px;
   width: 8%;
   font-size: 18px;
-  color: black;
+  color: #fff;
   text-align: center;
   outline: none;
-  box-shadow: 3px 3px 5px;
+  border: none;
+  box-shadow: 3px 3px 5px black;
 }
 
 .btn2 {
+  background-color: #038178;
   padding: 8px;
   width: 30%;
   font-size: 18px;
-  color: black;
+  color: white;
   text-align: center;
   outline: none;
-  box-shadow: 3px 3px 5px;
+  border: none;
+  box-shadow: 3px 3px 5px black;
   align-self: flex-end;
+}
+
+.btn:hover,
+.btn2:hover {
+  background-color: #007069;
+  transform: scale(1.02);
 }
